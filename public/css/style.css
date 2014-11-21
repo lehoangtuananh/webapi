@@ -1,0 +1,27 @@
+
+html, body {
+    text-align:center;
+}
+
+#top {
+    height: 100px;
+    overflow: auto;
+    background: green;
+}
+
+#left {
+    /*height: 100px;*/
+    float: left;
+    background: greenyellow;
+}
+
+#main {
+
+    background: gray;
+}
+
+#footer {
+    overflow: auto;
+    background: red;
+    height: 100px
+}
