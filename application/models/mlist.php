@@ -21,7 +21,10 @@ class Mlist extends CI_Model{
         $cache = $this->cache_manager->getCacheObj();
         $res = $cache->get($key);
         if( $res != FALSE ) {
-            echo "cached";
+            foreach ($res as $el)
+            {
+                echo $el['id'];
+            }
             return $res;
         }
         /* select data  */
