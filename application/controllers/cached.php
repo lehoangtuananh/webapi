@@ -21,5 +21,7 @@ class Cached extends Base_Controller{
         $data['level1']= $this->Mlist->level_list();
         $this->load->view("news/insert",$data);
     }
+
+
 }
 ?>
